@@ -11,8 +11,10 @@ namespace LINQ_Practice
         static void Main(string[] args)
         {
             Practice practice = new Practice();
-            practice.ReturnWordsThatContain();
-            practice.ReturnListWithNoDuplicates();
+            //practice.WordsThatContain();
+            //practice.ListWithNoDuplicates();
+            //practice.CalculateClassAverage();
+            practice.LetterFrequencyAlphabeticallyOrdered();
         }
     }
 }
